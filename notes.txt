@@ -1,0 +1,16 @@
+precedence not->and->or operator
+
+sort in list don't sort the list which have number and string both
+and it use ASCII code so This means uppercase letters come before lowercase letters
+Therefore, the lowercase a is sorted so that it comes after the uppercase Z
+If you need to sort the values in regular alphabetical order, pass str.lower 
+for the key keyword argument in the sort() method call.
+
+If the list you need to copy contains lists, then use the copy.deepcopy() function 
+instead of copy.copy(). The deepcopy() function will copy these inner lists as well.
+
+string methods
+upper(), lower(), isupper(), islower(), isalph(), isalnum(), isdecimal(), 
+isspace(), istitle(), startswith(), endswith(), join(), split(), partition()
+rjust(), ljust(), center(), rstrip(), lstrip(), strip(),chr() convert character string into its ASCII code,
+ord() convert the integer in string into its ASCII code
